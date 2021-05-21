@@ -1,0 +1,39 @@
+.noteBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.pencil {
+    width: 75px;
+     bottom: 30px;
+    position: fixed;
+}
+
+.singlebox {
+  width: 40%;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #efd3d7;
+  border-color: 1px solid #efd3d7;
+  border-radius: 1em;
+  font-family: "Delius", cursive;
+}
+
+.singlebox h2 {
+  align-content: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+}
+
+.singlebox p {
+    width: 100%;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Delius", cursive;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+

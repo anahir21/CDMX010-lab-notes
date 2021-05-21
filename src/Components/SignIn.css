@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Pangolin&display=swap");
+
+.signInForm {
+  display: flex;
+  border-radius: 2em;
+  width: 300px;
+  height: 300px;
+  padding-left: 40px 70px 40px 75px;
+  margin: auto;
+  flex-direction: row;
+}
+
+.form h1 {
+  font-family: "Delius", cursive;
+  color: rgb(205, 147, 228);
+}

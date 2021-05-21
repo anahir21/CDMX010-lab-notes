@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  width:100vw;
+  justify-content: space-around;
+  
+}
+
+.navbar h1 {
+  color: #8269a0;
+  font-family: "Amatic SC", cursive;
+ 
+  font-size: 50px;
+}
+
+.navbar .exit {
+  width: 75px;
+  height: 75px;
+  float: right;
+  margin-right: 5em;
+  margin-top: 3em;
+}
+.navbar .colection {
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-left: 5em;
+  margin-top: 3em;
+}

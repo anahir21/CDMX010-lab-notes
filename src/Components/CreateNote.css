@@ -1,0 +1,39 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #efd3d7;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 1s;
+    text-decoration: none;
+    z-index: 999;
+  }
+  
+  .modalcontent {
+    font-family: "Amatic SC", cursive;
+    color: #8269a0;
+   position: relative;
+    background: white;
+ text-align: center;
+  }
+
+ .title {
+     border-color: #8269a0;
+     width: 50%;
+     height: 50px;
+}
+
+  .bodynote{
+    border-color: #8269a0;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+
+
+  }
